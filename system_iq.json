@@ -1,0 +1,9 @@
+{
+    "system_iq": 105.70000000000002,
+    "reasoning": 61.99999999999996,
+    "coding": 75.7,
+    "debugging": 50,
+    "architecture": 50,
+    "learning": 58.999999999999915,
+    "total_runs": 30
+}

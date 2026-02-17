@@ -1,0 +1,37 @@
+{
+    "success_rate": 100.0,
+    "avg_score": 8.9,
+    "avg_time": 14.18,
+    "results": [
+        {
+            "task": "build password generator",
+            "score": 8.0,
+            "success": true,
+            "time": 0.01
+        },
+        {
+            "task": "build csv cleaner",
+            "score": 10.0,
+            "success": true,
+            "time": 0.01
+        },
+        {
+            "task": "build log analyzer",
+            "score": 9.0,
+            "success": true,
+            "time": 0.01
+        },
+        {
+            "task": "build file organizer",
+            "score": 9.0,
+            "success": true,
+            "time": 70.86
+        },
+        {
+            "task": "build api fetcher",
+            "score": 8.5,
+            "success": true,
+            "time": 0.01
+        }
+    ]
+}

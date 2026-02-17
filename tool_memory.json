@@ -1,0 +1,15 @@
+{
+  "create_password_generator": 8.5,
+  "password_generator": 9.0,
+  "build_csv_cleaner": 10.0,
+  "build_data_science_kit_": 9.0,
+  "module1_-_parse_configuration_file": 7.0,
+  "build_password_generator": 8.0,
+  "evolve_": 7.0,
+  "build_log_analyzer": 9.0,
+  "build_file_organizer": 9.0,
+  "build_api_fetcher": 8.5,
+  "log_analyzer": 7.0,
+  "evolve": 7.0,
+  "evolve_fast": 7.0
+}
