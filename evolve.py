@@ -1,1 +1,0 @@
-print('generation failed:', Command '['ollama', 'run', 'phi3', '\nYou are a FAANG-level senior Python engineer.\n\nWrite COMPLETE runnable Python code.\n\nTASK:\nevolve\n\nSTRICT RULES:\n- Only Python code\n- No explanation\n- No markdown\n- Must run directly\n- Production quality\n- Proper structure\n']' timed out after 180 seconds)
