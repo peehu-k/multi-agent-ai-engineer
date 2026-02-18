@@ -1,0 +1,69 @@
+
+
+class DependencyManager:
+
+    def add_dependency(self, dependencies, package):
+
+        if not isinstance(dependencies, list):
+
+            raise TypeError("Dependencies must be a list.")
+
+        if not all(isinstance(dep, str) for dep in (dependencies + [package])):
+
+            raise ValueError("All elements of dependencies and the new package should be strings.")
+
+        dependencies.append(package)
+
+        return dependencies
+
+
+    def remove_dependency(self, dependencies, package):
+
+        if not isinstance(dependencies, list):
+
+            raise TypeError("Dependencies must be a list.")
+
+        try:
+
+            dependencies.remove(package)
+
+            print(f"Package '{package}' removed from the dependency list.")
+
+            return dependencies
+
+        except ValueError:
+
+            print(f"Package '{package}' not found in the dependency list.")
+
+
+    def __str__(self):
+
+        # This method is for a human-readable representation, if needed. 
+
+        dep_list = ', '.join(self.dependencies)
+
+        return f"Dependencies: {dep_list}" if self.dependencies else "No dependencies yet."
+
+
+if __name__ == "__main__":
+
+    manager = DependencyManager()
+
+    my_dependencies = []
+
+
+    # Add some package names to the dependency list and handle potential errors 
+
+    try:
+
+        print(manager.add_dependency(my_dependencies, 'numpy'))
+
+        print(manager.add_dependency(my_dependencies, 'requests'))
+
+        
+        manager.remove_dependency(my_dependencies, 'matplotlib') # Corrected the function name here and added error handling for non-existent dependencies 
+
+    except Exception as e:
+
+        print(f"An error occurred: {e}")
+
